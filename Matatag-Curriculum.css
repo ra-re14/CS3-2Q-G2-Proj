@@ -1,19 +1,86 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 20px;
+    background-color: #e0f7fa;
+    margin: 0px;
 }
 
-h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
 
 p {
-    margin-bottom: 1  10px;
+    line-height: 1.5;
+}
+
+.list{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.sprite {
+    background: url('Compsci3_AA1 Logo-transparent.png') no-repeat -50px -150px;
+    width: 397px;
+    height: 192px;
 }
 
 ul {
-    list-style-type: disc;
-    padding-left: 20px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Segoe UI;
+} 
+.nav-h1 {
+    overflow: hidden;
+    background-color: white;
+}
+
+.nav-h1 ul {
+    text-align: center;
+}
+
+.nav-h1 li {
+    display: inline;
+}
+
+.nav-h1 a {
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-h1 a:active {
+    color: black;
+    background: rgba(158, 211, 193, 0.985);
+}
+
+.nav-h1 a:hover {
+    color: black;
+    background: gainsboro;
+}
+
+a.nav-active1 {
+    color: black;
+    background: rgba(158, 211, 193, 0.985);
+}
+
+
+article {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    color: #455a64;
 }
